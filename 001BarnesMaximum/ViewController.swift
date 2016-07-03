@@ -16,13 +16,15 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var myyText: UITextView!
     
+    @IBOutlet weak var newBrachButton: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     }
 
     override func didReceiveMemoryWarning() {
-        @IBOutlet weak var newBrachButton: UIButton!
+       
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
@@ -34,6 +36,8 @@ class ViewController: UIViewController {
         //myLABEL.text = "Harrison aint worth it! Or is he?"
     }
 
+    @IBAction func newButt(sender: AnyObject) {
+    }
 
 }
 
