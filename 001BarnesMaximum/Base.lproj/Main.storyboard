@@ -36,6 +36,13 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="q1j-MT-Zf4">
+                                <rect key="frame" x="126" y="324" width="46" height="30"/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="newButt:" destination="BYZ-38-t0r" eventType="touchUpInside" id="KAp-iv-HJS"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
@@ -44,6 +51,7 @@
                         <outlet property="myButton" destination="4GU-ku-B9d" id="2pQ-xh-NJS"/>
                         <outlet property="myLABEL" destination="YNh-WF-vg5" id="rh2-4y-XJc"/>
                         <outlet property="myyText" destination="7dg-cX-3cG" id="01b-Rl-HJj"/>
+                        <outlet property="newBrachButton" destination="q1j-MT-Zf4" id="Lkb-VO-1uh"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
