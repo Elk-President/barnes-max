@@ -22,6 +22,7 @@ class ViewController: UIViewController {
     }
 
     override func didReceiveMemoryWarning() {
+        @IBOutlet weak var newBrachButton: UIButton!
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
